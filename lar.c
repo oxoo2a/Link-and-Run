@@ -10,7 +10,7 @@ int main ( int ac, char **av ) {
 	*int_ptr = 42;
 	printf("0x%016lx = content of int_ptr\n",(long unsigned int) int_ptr);
 	
-	int_ptr = (int *) &main;
-	printf("int_ptr points to int %d\n",*int_ptr);
+	printf("Press a key to continue ...\n");
+	char pft = (char) getchar();
 	return(0);
 }
