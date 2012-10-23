@@ -1,0 +1,3 @@
+# Link and Run
+
+A very simple C program to demonstrate basic memory allocation and layout issues. Besides the localisation of different memory areas such as text, stack, and heap by printing the address of given symbols and variables, the definition and reference of symbols, the linker stage, and the final program execution with the help of a dynamic linker are discussed. In the course of the experiment, some UNIX tools such as nm and vmmap are used.
